@@ -1,0 +1,48 @@
+
+/* Class = "UILabel"; text = "Tap to Change"; ObjectID = "2I0-0C-cWw"; */
+"2I0-0C-cWw.text" = "Tap to Change";
+
+/* Class = "UILabel"; text = "Bounce Now"; ObjectID = "2Vf-r7-1we"; */
+"2Vf-r7-1we.text" = "Bounce Now";
+
+/* Class = "UILabel"; text = "Sound"; ObjectID = "4hb-X0-gd5"; */
+"4hb-X0-gd5.text" = "Sound";
+
+/* Class = "UILabel"; text = "Select Default"; ObjectID = "AYn-CO-sUw"; */
+"AYn-CO-sUw.text" = "Select Default";
+
+/* Class = "UILabel"; text = "Won: 10"; ObjectID = "GUc-TD-zNk"; */
+"GUc-TD-zNk.text" = "Won: 10";
+
+/* Class = "UIButton"; normalTitle = "START"; ObjectID = "MqG-C9-Ve5"; */
+"MqG-C9-Ve5.normalTitle" = "START";
+
+/* Class = "UILabel"; text = "Win | Loose"; ObjectID = "TZW-vh-rEt"; */
+"TZW-vh-rEt.text" = "Win | Loose";
+
+/* Class = "UILabel"; text = "Loose : 4"; ObjectID = "Tnp-V4-YYf"; */
+"Tnp-V4-YYf.text" = "Loose : 4";
+
+/* Class = "UILabel"; text = "Setting"; ObjectID = "bXc-Mh-Cuo"; */
+"bXc-Mh-Cuo.text" = "Setting";
+
+/* Class = "UILabel"; text = "Overall Scores Stats"; ObjectID = "cbu-xH-F3j"; */
+"cbu-xH-F3j.text" = "Overall Scores Stats";
+
+/* Class = "UILabel"; text = "Select favourite Flip Flop to Play"; ObjectID = "ecb-fy-nGr"; */
+"ecb-fy-nGr.text" = "Select favourite Flip Flop to Play";
+
+/* Class = "UILabel"; text = "Won: 10"; ObjectID = "gGS-vl-e0u"; */
+"gGS-vl-e0u.text" = "Won: 10";
+
+/* Class = "UILabel"; text = "Loose : 4"; ObjectID = "h2N-X9-y7a"; */
+"h2N-X9-y7a.text" = "Loose : 4";
+
+/* Class = "UILabel"; text = "Stats"; ObjectID = "jwz-LD-Mqn"; */
+"jwz-LD-Mqn.text" = "Stats";
+
+/* Class = "UILabel"; text = "Themes"; ObjectID = "pep-gS-e38"; */
+"pep-gS-e38.text" = "Themes";
+
+/* Class = "UILabel"; text = "Full History"; ObjectID = "yfk-5k-t3F"; */
+"yfk-5k-t3F.text" = "Full History";

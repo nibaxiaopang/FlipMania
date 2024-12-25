@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "flipImage_down.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
