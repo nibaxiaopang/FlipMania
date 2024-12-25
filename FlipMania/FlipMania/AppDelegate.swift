@@ -7,14 +7,26 @@
 
 import UIKit
 import CoreData
+import FirebaseCore
+import FirebaseMessaging
+import AppsFlyerLib
 
 @main
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate, AppsFlyerLibDelegate {
 
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        let appsFlyer = AppsFlyerLib.shared()
+        appsFlyer.appsFlyerDevKey = UIViewController.flipAppsFlyerDevKey()
+        appsFlyer.appleAppID = "6739834399"
+        appsFlyer.waitForATTUserAuthorization(timeoutInterval: 50)
+        appsFlyer.delegate = self
+        
+        FirebaseApp.configure()
+        
         return true
     }
 
@@ -77,5 +89,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         }
     }
     
+    func onConversionDataSuccess(_ conversionInfo: [AnyHashable : Any]) {
+        print("success appsflyer")
+    }
+    
+    func onConversionDataFail(_ error: Error) {
+        print("error appsflyer")
+    }
+    
+    func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
+        Messaging.messaging().apnsToken = deviceToken
+    }
 }
 

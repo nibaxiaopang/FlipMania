@@ -6,5 +6,6 @@ target 'FlipMania' do
   use_frameworks!
 
   # Pods for FlipMania
-
+  pod 'Firebase/Messaging'
+  pod 'AppsFlyerFramework'
 end

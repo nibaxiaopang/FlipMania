@@ -43,7 +43,7 @@
                                 <rect key="frame" x="16" y="50" width="288" height="468"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="MMFHistoryCell" rowHeight="130" id="v88-HI-ep6" customClass="FlipHistoryCell" customModule="MakeMeFlip" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="MMFHistoryCell" rowHeight="130" id="v88-HI-ep6" customClass="FlipHistoryCell" customModule="FlipMania" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="50" width="288" height="130"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="v88-HI-ep6" id="QOn-Q6-aBj">
@@ -344,6 +344,12 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="FyJ-m2-z4J"/>
+                    <connections>
+                        <outlet property="bottomCos" destination="Zj5-B2-F1l" id="wQ5-tX-pWM"/>
+                        <outlet property="flipWebView" destination="yWQ-Vr-iIn" id="xTV-k2-ZZZ"/>
+                        <outlet property="indicatorView" destination="sGO-Tg-uiY" id="xBq-Wa-If8"/>
+                        <outlet property="topCos" destination="kXe-jU-UOW" id="e3X-9Z-hEy"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Kaw-fj-fzA" sceneMemberID="firstResponder"/>
             </objects>
@@ -395,6 +401,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="0k6-P2-6YT"/>
+                    <connections>
+                        <outlet property="start" destination="MqG-C9-Ve5" id="Ge8-vu-T1P"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EmV-ZT-cBA" sceneMemberID="firstResponder"/>
             </objects>
